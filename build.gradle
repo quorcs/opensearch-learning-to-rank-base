@@ -135,7 +135,7 @@ githubRelease.doFirst {
 
   // configuration
   github {
-    owner = 'gsingers'
+    owner = 'quorcs'
     repo = 'opensearch-learning-to-rank-base'
     token = System.getProperty('GITHUB_TOKEN')
     tagName = currentVersion
