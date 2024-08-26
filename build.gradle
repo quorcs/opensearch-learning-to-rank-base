@@ -68,6 +68,10 @@ dependencies {
   implementation "org.ow2.asm:asm-tree:${ow2Version}"
   implementation 'com.o19s:RankyMcRankFace:0.1.1'
   implementation "com.github.spullara.mustache.java:compiler:0.9.3"
+  implementation 'ai.catboost:catboost-common:1.2.5'
+  implementation 'ai.catboost:catboost-prediction:1.2.5'
+
+  implementation 'org.slf4j:slf4j-api:2.0.15'
 
   //testImplementation 'org.apache.lucene:lucene-test-framework:${luceneVersion}'
   runtimeOnly 'org.locationtech.spatial4j:spatial4j:0.7'
